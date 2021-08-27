@@ -35,5 +35,12 @@ namespace Sample_Core_Web_API.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        public string WelcomeMessage()
+        {
+            return "Hello World";
+        }
+        
     }
 }
